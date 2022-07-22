@@ -1,0 +1,20 @@
+@use 'mixinsfunc';
+@use 'variables';
+
+
+.menu-nav{
+    text-align: right;
+    padding: 0;
+
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: variables.$colorWithe;
+        margin-left: mixinsfunc.pixel-rem(10);
+        margin-top: mixinsfunc.pixel-rem(40);
+    }
+}
+
+
+
+

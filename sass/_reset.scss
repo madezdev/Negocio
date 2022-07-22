@@ -1,0 +1,21 @@
+@use 'mixinsfunc';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: mixinsfunc.pixel-rem(1100);
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0 ;
+}
+
+

@@ -1,0 +1,58 @@
+@use "mixinsfunc";
+@use "variables";
+
+.seccion1 {
+  padding: 30px;
+}
+
+.titulo-seccion {
+  text-align: center;
+  font-size: mixinsfunc.pixel-rem(30);
+  font-weight: 700;
+  color: variables.$colorPrincipal;
+  padding-bottom: 60px;
+}
+
+.contenedor-sobre-nosotros {
+  @include mixinsfunc.flex_wrap(space-between);
+}
+
+.relatos {
+  width: 40%;
+}
+
+.relato {
+  margin-bottom: 30px;
+}
+
+.n-relato {
+  font-size: mixinsfunc.pixel-rem(25);
+  color: variables.$colorPrincipal;
+  margin-bottom: 5px;
+}
+
+.ilustracion {
+  width: 50%;
+}
+
+.portafolio {
+  background: variables.$colorSecundario;
+}
+
+.portafolio-contenedor {
+  @include mixinsfunc.flex_wrap(space-evenly);
+}
+
+.imagen-contenedor {
+  width: 30%;
+  height: mixinsfunc.pixel-rem(250);
+  margin-bottom: 20px;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}

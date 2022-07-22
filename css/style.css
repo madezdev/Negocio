@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 68.75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+.menu-nav {
+  text-align: right;
+  padding: 0;
+}
+.menu-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.625rem;
+  margin-top: 2.5rem;
+}
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(-225deg, rgba(44, 216, 213, 0.404) 0%, rgba(197, 193, 255, 0.404) 56%, rgba(255, 186, 195, 0.404) 100%), url(../img/girl.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.hero {
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3.75rem;
+}
+
+.copy {
+  font-size: 1.5rem;
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contenedor-textos {
+  padding-bottom: 6.25rem;
+}
+
+.seccion1 {
+  padding: 30px;
+}
+
+.titulo-seccion {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #7c79a0;
+  padding-bottom: 60px;
+}
+
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.relatos {
+  width: 40%;
+}
+
+.relato {
+  margin-bottom: 30px;
+}
+
+.n-relato {
+  font-size: 1.5625rem;
+  color: #7c79a0;
+  margin-bottom: 5px;
+}
+
+.ilustracion {
+  width: 50%;
+}
+
+.portafolio {
+  background: #f2f2f2;
+}
+
+.portafolio-contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen-contenedor {
+  width: 30%;
+  height: 15.625rem;
+  margin-bottom: 20px;
+}
+.imagen-contenedor img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.table-pricing {
+  display: flex;
+  height: 37.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pricing {
+  width: 30%;
+  text-align: center;
+  background: #B497F4;
+  height: 31.25rem;
+  border-radius: 10px;
+  padding: 50px 10px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.active {
+  background: #A7C2E9;
+  transform: scale(1.1);
+}
+
+.name-pricing {
+  font-size: 2.5rem;
+}
+
+.price {
+  font-size: 1.375rem;
+  margin-bottom: 40px;
+}
+
+.benefice {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

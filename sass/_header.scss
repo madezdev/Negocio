@@ -1,0 +1,42 @@
+@use 'mixinsfunc';
+@use 'variables';
+
+
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(-225deg, rgba(44, 216, 213, 0.404) 0%, rgba(197, 193, 255, 0.404) 56%, rgba(255, 186, 195, 0.404) 100%), url(../img/girl.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.hero{
+    height: mixinsfunc.pixel-rem(600);
+    @include mixinsfunc.flex_center_row(center);
+    color: variables.$colorWithe;
+    text-align: center;
+   
+    h1{
+        font-size: mixinsfunc.pixel-rem(60);
+    }
+}
+
+.copy{
+    font-size: mixinsfunc.pixel-rem(24);
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.contenedor-textos{
+    padding-bottom:mixinsfunc.pixel-rem(100) ;
+}

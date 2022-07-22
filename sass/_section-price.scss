@@ -1,0 +1,46 @@
+@use 'mixinsfunc';
+@use 'variables';
+
+
+.table-pricing{
+    display: flex;
+    height:mixinsfunc.pixel-rem(600) ;
+    @include mixinsfunc.flex_wrap(space-evenly);
+    align-items: center;
+
+}
+
+.pricing{
+    width: 30%;
+    text-align: center;
+    background: variables.$colorCard;
+    height: mixinsfunc.pixel-rem(500);
+    border-radius: 10px;
+    padding: 50px 10px;
+    overflow: hidden;
+    color: variables.$colorWithe;
+}
+
+.active{
+    background:variables.$colorAcento;
+    transform: scale(1.1);
+}
+
+.name-pricing{
+    font-size: mixinsfunc.pixel-rem(40);
+    
+}
+
+.price{
+    font-size: mixinsfunc.pixel-rem(22);
+    margin-bottom: 40px;
+}
+
+.benefice{
+    font-size: mixinsfunc.pixel-rem(24);
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #fff;
+    padding-bottom: 5px;
+
+}

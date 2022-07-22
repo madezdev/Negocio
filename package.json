@@ -1,0 +1,23 @@
+{
+  "name": "negocio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhernandez-2020/Negocio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhernandez-2020/Negocio/issues"
+  },
+  "homepage": "https://github.com/mhernandez-2020/Negocio#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  }
+}
